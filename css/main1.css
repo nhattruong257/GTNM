@@ -1,0 +1,81 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .payment {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .payment h2 {
+    margin-bottom: 20px;
+  }
+  
+  .payment label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .payment input[type="text"],
+  .payment textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .payment input[type="submit"] {
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+img{
+    width: 1400px;
+    height: 600px;
+    margin-left: 55px;
+}  
+.thea{
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin-left: 70px;
+  padding-top: 8px;
+}
